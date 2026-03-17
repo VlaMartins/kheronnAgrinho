@@ -1,7 +1,7 @@
 function atualizarMonitor() {
     // 1. Captura de dados
-    const prod = parseFloat(document.getElementById('inputProducao').value);
-    const pres = parseFloat(document.getElementById('inputPreservacao').value);
+    const prod = parseFloat(document.getElementById('producao').value);
+    const pres = parseFloat(document.getElementById('mata').value);
     
     // Elementos para atualizar
     const txtProd = document.getElementById('txtProducao');
